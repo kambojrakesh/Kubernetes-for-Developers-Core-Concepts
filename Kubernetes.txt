@@ -1,0 +1,27 @@
+Kubernetes is open source system for automating deployment, scaling and management of containerized applications
+
+Key Feature:-
+
+Service discovery
+Load balancing
+Storage orchestration
+Automate rollout/rollbacks
+Self healing 
+Secret and config management
+Horizental scaling
+
+
+
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml
+kubectl describe secret -n kube-system
+kubectl proxy
+http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/workloads?namespace=default
+
+Pods :- basic excution unit of a kubernetes application 
+
+1. Samllest object model
+2. Environment for container
+3. organize application part into Pods
+4. Pod Ip, memory, volume, etc shared across the containers
+5. can scale pods horizentally by adding multiple pods
+6. 
