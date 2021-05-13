@@ -25,3 +25,19 @@ Pods :- basic excution unit of a kubernetes application
 4. Pod Ip, memory, volume, etc shared across the containers
 5. can scale pods horizentally by adding multiple pods
 6. 
+
+
+--------------
+
+
+kubectl run my-nginx --image=nginx:alpine
+
+kubectl get all
+
+kubectl get pods
+
+kubectl get services
+
+kubectl port-forward my-nginx 8080:80
+
+kubectl delete pod my-nginx
