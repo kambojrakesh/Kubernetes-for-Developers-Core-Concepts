@@ -41,3 +41,23 @@ kubectl get services
 kubectl port-forward my-nginx 8080:80
 
 kubectl delete pod my-nginx
+
+
+----------------------------
+
+
+kubectl create -f Pods/nginx.pod.yml --save-config
+
+kubectl get pods
+
+kubectl get pod my-nginx -o yaml
+
+kubectl describe pod my-nginx
+
+kubectl apply -f Pods/nginx.pod.yml
+
+kubectl exec my-nginx -it sh
+
+kubectl edit -f Pods/nginx.pod.yml
+
+kubectl delete -f Pods/nginx.pod.yml
