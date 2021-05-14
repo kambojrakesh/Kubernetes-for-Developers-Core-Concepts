@@ -10,7 +10,7 @@ Self healing
 Secret and config management
 Horizental scaling
 
-
+https://github.com/DanWahlin/DockerAndKubernetesCourseCode/tree/main/samples
 
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml
 kubectl describe secret -n kube-system
@@ -27,7 +27,7 @@ Pods :- basic excution unit of a kubernetes application
 6. 
 
 
---------------
+--------------alias k='kubectl'----------
 
 
 kubectl run my-nginx --image=nginx:alpine
@@ -61,3 +61,8 @@ kubectl exec my-nginx -it sh
 kubectl edit -f Pods/nginx.pod.yml
 
 kubectl delete -f Pods/nginx.pod.yml
+
+---------------------------------------------------------
+kubectl describe -f nginx-readiness-probes.pod.yml
+
+k rm -rf index.html
