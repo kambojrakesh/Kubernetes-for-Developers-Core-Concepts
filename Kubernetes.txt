@@ -66,3 +66,28 @@ kubectl delete -f Pods/nginx.pod.yml
 kubectl describe -f nginx-readiness-probes.pod.yml
 
 k rm -rf index.html
+
+
+
+------------------------------------------
+
+
+kubectl create -f deployments/nginx.deployment.yml
+
+kubectl get deployment --show-labels
+
+kubectl scale -f .\deployments\nginx.deployment.yml --replicas=4
+
+kubectl delete -f .\deployments\nginx.deployment.yml
+
+
+
+
+
+
+
+
+
+
+
+
