@@ -1,3 +1,8 @@
+pending :- https://app.pluralsight.com/course-player?clipId=ceb255c4-e020-48cc-bf74-51bad36f09f1
+
+
+
+
 Kubernetes is open source system for automating deployment, scaling and management of containerized applications
 
 Key Feature:-
@@ -79,6 +84,29 @@ kubectl get deployment --show-labels
 kubectl scale -f .\deployments\nginx.deployment.yml --replicas=4
 
 kubectl delete -f .\deployments\nginx.deployment.yml
+
+
+
+
+
+
+------------------------------------------------------
+Deployments:-
+
+kubectl apply -f .\deployments\nginx-resource-limits.deployment.yml
+
+kubectl port-forward pod/my-nginx-6db574f688-24nw9 8080:80
+
+kubectl get deployments
+
+kubectl port-forward deployment/my-nginx 8081
+
+
+
+
+
+
+
 
 
 
