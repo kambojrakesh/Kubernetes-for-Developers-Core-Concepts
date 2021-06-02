@@ -1,5 +1,5 @@
 pending :- https://app.pluralsight.com/course-player?clipId=ceb255c4-e020-48cc-bf74-51bad36f09f1
-
+https://app.pluralsight.com/course-player?clipId=32f4f873-30d1-4a70-9cf0-510a899d2223
 
 
 
@@ -102,6 +102,8 @@ kubectl get deployments
 kubectl port-forward deployment/my-nginx 8081
 
 
+
+https://github.com/kubernetes/examples
 
 
 
