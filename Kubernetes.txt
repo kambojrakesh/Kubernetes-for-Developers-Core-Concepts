@@ -32,7 +32,6 @@ Pods :- basic excution unit of a kubernetes application
 6. 
 
 
-
 --------------alias k='kubectl'----------
 
 
